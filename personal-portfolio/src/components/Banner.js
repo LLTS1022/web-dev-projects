@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
+  const toRotate = [ "Full-Stack JavaScript Developer", "Python Developer" ];
   const period = 2000;
 
   useEffect(() => {
@@ -56,8 +56,8 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Judy`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <h1>{`Hi! I'm Raishawn Jones`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full-Stack JavaScript Developer", "Python Developer" ]'><span className="wrap">{text}</span></span></h1>
+                <p><strong>Welcome! </strong>I'm Raishawn Jones, a Computer Science major with a passion for software development and data science. Over the past 10 months, I have honed my skills at a software development bootcamp, where I gained hands-on experience with JavaScript and React.js. Currently, I am expanding my expertise in back-end programming, becoming fluent in Python, Flask, MySQL, and data science. Please take a look around to see the projects I've worked on and the skills I've developed. I'm excited to share my journey and look forward to connecting with you! </p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
