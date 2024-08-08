@@ -75,6 +75,9 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
+                  <img id="mypic" class="intro" src="https://avatars.githubusercontent.com/u/141539039?v=4" alt="Raishawn Jones" />
+
+
                     <strong>Welcome! </strong>I'm Raishawn Jones, a Computer
                     Science major with a passion for software development and
                     data science. Over the past 10 months, I have honed my

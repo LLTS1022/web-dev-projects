@@ -113,6 +113,36 @@ span.navbar-text {
     display: flex;
     align-items: center;
 }
+
+.navbar-brand img {
+  border-radius: 50%;
+  width: 150px;
+}
+
+
+
+.intro {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+#mypic {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin-right: 20px; /* Space between image and text */
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.intro-text {
+  max-width: 600px;
+}
+
+
+
 .social-icon {
     display: inline-block;
     margin-left: 14px;

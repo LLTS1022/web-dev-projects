@@ -37,7 +37,7 @@ export const NavBar = () => {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
-            <img src={logo} alt="Logo" />
+            <img src={"https://mail.google.com/mail/u/1?ui=2&ik=da421dac21&attid=0.1&permmsgid=msg-f:1805411706468954457&th=190e1c61ad69f159&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ-8qpUTAhfbm9jVp5ugDbGqRbLVJ4N7QLz-bU6VLgaKl3SZT8if6tW5cKQeFWJJ5Wlo5cj-jDRDEeSM8_YaJIqoZ9WPLZffmHpVppM8Gp-5wzSllVBZPzP0PuE&disp=emb&realattid=93431016-D266-4C86-BFB9-4C28370030B4"} alt="Logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
